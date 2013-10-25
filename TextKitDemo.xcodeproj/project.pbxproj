@@ -19,6 +19,17 @@
 		36DEA2D1181948BB00C920EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DEA2B9181948BB00C920EE /* UIKit.framework */; };
 		36DEA2D9181948BB00C920EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2D7181948BB00C920EE /* InfoPlist.strings */; };
 		36DEA2DB181948BB00C920EE /* TextKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DEA2DA181948BB00C920EE /* TextKitDemoTests.m */; };
+		36DEA2E7181948F300C920EE /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DEA2E5181948F300C920EE /* HomeViewController.m */; };
+		36DEA2E8181948F300C920EE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2E6181948F300C920EE /* HomeViewController.xib */; };
+		36DEA2EC181949CA00C920EE /* DynamicFontSizeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DEA2EA181949CA00C920EE /* DynamicFontSizeViewController.m */; };
+		36DEA2ED181949CA00C920EE /* DynamicFontSizeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2EB181949CA00C920EE /* DynamicFontSizeViewController.xib */; };
+		36DEA2EF18194B0800C920EE /* book.txt in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2EE18194B0800C920EE /* book.txt */; };
+		36DEA2F318196CBD00C920EE /* ExclusionPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DEA2F118196CBD00C920EE /* ExclusionPathViewController.m */; };
+		36DEA2F418196CBD00C920EE /* ExclusionPathViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2F218196CBD00C920EE /* ExclusionPathViewController.xib */; };
+		36DEA2F618196E8600C920EE /* tiger.png in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2F518196E8600C920EE /* tiger.png */; };
+		36DEA2FA1819820000C920EE /* RichTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DEA2F81819820000C920EE /* RichTextViewController.m */; };
+		36DEA2FB1819820000C920EE /* RichTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36DEA2F91819820000C920EE /* RichTextViewController.xib */; };
+		36DEA2FE1819826400C920EE /* MyTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DEA2FD1819826400C920EE /* MyTextStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,22 @@
 		36DEA2D6181948BB00C920EE /* TextKitDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextKitDemoTests-Info.plist"; sourceTree = "<group>"; };
 		36DEA2D8181948BB00C920EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36DEA2DA181948BB00C920EE /* TextKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextKitDemoTests.m; sourceTree = "<group>"; };
+		36DEA2E4181948F300C920EE /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		36DEA2E5181948F300C920EE /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		36DEA2E6181948F300C920EE /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		36DEA2E9181949CA00C920EE /* DynamicFontSizeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicFontSizeViewController.h; sourceTree = "<group>"; };
+		36DEA2EA181949CA00C920EE /* DynamicFontSizeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicFontSizeViewController.m; sourceTree = "<group>"; };
+		36DEA2EB181949CA00C920EE /* DynamicFontSizeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DynamicFontSizeViewController.xib; sourceTree = "<group>"; };
+		36DEA2EE18194B0800C920EE /* book.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = book.txt; sourceTree = "<group>"; };
+		36DEA2F018196CBD00C920EE /* ExclusionPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExclusionPathViewController.h; sourceTree = "<group>"; };
+		36DEA2F118196CBD00C920EE /* ExclusionPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExclusionPathViewController.m; sourceTree = "<group>"; };
+		36DEA2F218196CBD00C920EE /* ExclusionPathViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExclusionPathViewController.xib; sourceTree = "<group>"; };
+		36DEA2F518196E8600C920EE /* tiger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiger.png; sourceTree = "<group>"; };
+		36DEA2F71819820000C920EE /* RichTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RichTextViewController.h; sourceTree = "<group>"; };
+		36DEA2F81819820000C920EE /* RichTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RichTextViewController.m; sourceTree = "<group>"; };
+		36DEA2F91819820000C920EE /* RichTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RichTextViewController.xib; sourceTree = "<group>"; };
+		36DEA2FC1819826400C920EE /* MyTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTextStorage.h; sourceTree = "<group>"; };
+		36DEA2FD1819826400C920EE /* MyTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTextStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +138,20 @@
 				36DEA2C5181948BB00C920EE /* AppDelegate.m */,
 				36DEA2C7181948BB00C920EE /* Images.xcassets */,
 				36DEA2BC181948BB00C920EE /* Supporting Files */,
+				36DEA2E4181948F300C920EE /* HomeViewController.h */,
+				36DEA2E5181948F300C920EE /* HomeViewController.m */,
+				36DEA2E6181948F300C920EE /* HomeViewController.xib */,
+				36DEA2E9181949CA00C920EE /* DynamicFontSizeViewController.h */,
+				36DEA2EA181949CA00C920EE /* DynamicFontSizeViewController.m */,
+				36DEA2EB181949CA00C920EE /* DynamicFontSizeViewController.xib */,
+				36DEA2F018196CBD00C920EE /* ExclusionPathViewController.h */,
+				36DEA2F118196CBD00C920EE /* ExclusionPathViewController.m */,
+				36DEA2F218196CBD00C920EE /* ExclusionPathViewController.xib */,
+				36DEA2F71819820000C920EE /* RichTextViewController.h */,
+				36DEA2F81819820000C920EE /* RichTextViewController.m */,
+				36DEA2F91819820000C920EE /* RichTextViewController.xib */,
+				36DEA2FC1819826400C920EE /* MyTextStorage.h */,
+				36DEA2FD1819826400C920EE /* MyTextStorage.m */,
 			);
 			path = TextKitDemo;
 			sourceTree = "<group>";
@@ -118,6 +159,8 @@
 		36DEA2BC181948BB00C920EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36DEA2F518196E8600C920EE /* tiger.png */,
+				36DEA2EE18194B0800C920EE /* book.txt */,
 				36DEA2BD181948BB00C920EE /* TextKitDemo-Info.plist */,
 				36DEA2BE181948BB00C920EE /* InfoPlist.strings */,
 				36DEA2C1181948BB00C920EE /* main.m */,
@@ -219,8 +262,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DEA2ED181949CA00C920EE /* DynamicFontSizeViewController.xib in Resources */,
 				36DEA2C0181948BB00C920EE /* InfoPlist.strings in Resources */,
+				36DEA2F418196CBD00C920EE /* ExclusionPathViewController.xib in Resources */,
+				36DEA2F618196E8600C920EE /* tiger.png in Resources */,
 				36DEA2C8181948BB00C920EE /* Images.xcassets in Resources */,
+				36DEA2FB1819820000C920EE /* RichTextViewController.xib in Resources */,
+				36DEA2E8181948F300C920EE /* HomeViewController.xib in Resources */,
+				36DEA2EF18194B0800C920EE /* book.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +288,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36DEA2FE1819826400C920EE /* MyTextStorage.m in Sources */,
+				36DEA2F318196CBD00C920EE /* ExclusionPathViewController.m in Sources */,
+				36DEA2EC181949CA00C920EE /* DynamicFontSizeViewController.m in Sources */,
 				36DEA2C6181948BB00C920EE /* AppDelegate.m in Sources */,
 				36DEA2C2181948BB00C920EE /* main.m in Sources */,
+				36DEA2E7181948F300C920EE /* HomeViewController.m in Sources */,
+				36DEA2FA1819820000C920EE /* RichTextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +495,7 @@
 				36DEA2E0181948BB00C920EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36DEA2E1181948BB00C920EE /* Build configuration list for PBXNativeTarget "TextKitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -449,6 +504,7 @@
 				36DEA2E3181948BB00C920EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
